@@ -15,7 +15,10 @@
                 <img src="{{asset('assets')}}/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Ahmet Anil Sari</a>
+                @auth
+                    <a href="#" class="d-block">{{Auth::user()->name}}</a>
+                    <a href="{{route('admin_logout')}}" class="d-block">Logout</a>
+                @endauth
             </div>
         </div>
 
