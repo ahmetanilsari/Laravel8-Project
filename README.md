@@ -1,4 +1,4 @@
-Merhaba sadece HTML&CSS ve asp bilgim olduğundan ilk Php Laravel Projemi bulduğum kaynaklardan bu kadar yapabildim. Ek süre tanınırsa tamamlabilirim.
+
 
 
 - Xammp üzerinden "Apache" ve "MySQL" start butonlarına basıyoruz.
